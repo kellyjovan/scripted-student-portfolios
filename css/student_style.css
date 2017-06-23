@@ -34,3 +34,22 @@
 }
 
 /* Place your styles below this line */
+
+#student1{
+  background: url('https://vignette2.wikia.nocookie.net/mob-psycho-100/images/4/45/Slider_uno.png/revision/latest/scale-to-width-down/670?cb=20160223021708');   
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  font-size: 36px;
+  font-family: comic;
+  transition: .2s;
+}
+
+#student1 a:hover{
+  text-decoration: none;
+}
+
+#student1:hover{
+  animation: bounce .9s infinite ease;
+  color: #e5e4e2;
+}
